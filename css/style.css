@@ -1,0 +1,128 @@
+.vh-100{
+    min-height: 100vh;
+}
+
+.w-400{
+    width: 400px;
+}
+.fs-xs{
+    font-size: 1rem;
+}
+.w-10{
+    width: 10%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+a{
+    text-decoration: none;
+}
+.fs-big{
+    font-size: 5rem !important;
+}
+.online{
+    width: 10%;
+    height: 10%;
+    background: green;
+    border-radius: 50%;
+}
+.w-15{
+    width: 15%;
+}
+.fs-sm{
+    font-size: 1.4rem;
+}
+small{
+    color: #bbb;
+    font-size: 0.7rem;
+    text-align: right;
+}
+
+.chat-box{
+    overflow-y: auto;
+    max-height: 50vh;
+}
+.rtext{
+    width: 65%;
+    background: lightskyblue;
+    color: black;
+    word-wrap: break-word;
+    border-radius: 18px 18px 0 18px;
+    padding: 5px;
+    align-items: flex-end;
+}
+.ltext{
+    width: 65%;
+    background: #333;
+    color: white;
+    word-wrap: break-word;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: auto;
+    border-radius: 18px 18px 18px 0;
+}
+*::-webkit-scrollbar{
+    width: 3px;
+}
+*::-webkit-scrollbar-track{
+    background: #f1f1f1;
+}
+*::-webkit-scrollbar-thumb{
+    background: #aaa;
+}
+*::-webkit-scrollbar-thumb:hover{
+    background: #3289c8;
+}
+textarea{
+    resize: none;
+}
+
+/* mine styling */
+.w-25{
+    width: 10%;
+    border-radius: 50%;
+    object-fit: cover;
+   
+}
+.vic {
+    
+    display: flex;
+}
+
+/* .ph{
+    background-color: red;
+} */
+#chatBox{
+    padding:  8px ;
+    background: #f7f7f7;
+}
+.fl{
+    
+    display: flex;
+}
+.fs-4{
+   
+    font-weight: 900;
+    font-weight: bold;
+    display: flex;
+    font-size: x-large;
+}
+.vic img{
+border-radius: 50%;
+ width: 50px;
+ resize: none;
+ 
+ 
+ 
+ 
+}
+.f1 img{
+    background-color: aqua;
+}
+ /* pure CSS */
+ body{
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    /* background-color: red; */
+ }
