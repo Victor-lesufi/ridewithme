@@ -2,7 +2,7 @@
 
 session_start();
 
-# check if the user is logged in
+
 if (isset($_SESSION['username'])) {
 
 	if (isset($_POST['id_2'])) {
