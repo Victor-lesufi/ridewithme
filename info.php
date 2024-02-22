@@ -66,13 +66,7 @@ if (!isset($_SESSION['username'])) {
 </head>
 
 <body>
-	<div class="back">
-		<button class="ni"><a href="home.php">BACK</a></button>
-	</div>
-
-	<div class="mol">
-		<h4>Do not include the R when you enter your price</h4>
-	</div>
+	
 
 	<form method="post" action="send.php">
 		<label>Name:</label>
